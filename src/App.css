@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.App{
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+    font-family:poppins;
+}
+
+.submitButton{
+    width:10rem;
+    margin:1rem;
+    border-radius:1rem;
+    background-color:#7868e6;
+    color: white;
+    border:none;
+    padding:1rem 2rem;
+    font-weight: bold;
+    box-shadow:3px 4px 12px 6px #b8b5ff
+}

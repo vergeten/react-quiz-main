@@ -1,0 +1,63 @@
+.question-wrapper {
+  margin: 5%;
+  padding: 3%;
+  box-shadow: 5px 5px 15px 5px #e3f6f5;
+  color: #272343;
+  font-family: poppins;
+  font-weight: 400;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 2rem;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #e3f6f5;
+  width: 50%;
+  margin-top: 1%;
+  padding: 10px;
+  font-weight: bold;
+  border-radius:1rem
+}
+
+.wrong {
+  background-color: crimson;
+  color: white;
+  border-color: white;
+}
+
+.right {
+  background-color: palegreen;
+  color: black;
+  border-color: black;
+}
+
+button:hover:enabled {
+  background-color: peachpuff;
+  color: black;
+}
+
+button:focus{
+ outline: none;
+ border:none;
+}
+
+.btn-selected {
+  background-color: #272343;
+  color: white;
+  border-color: white;
+}
+
+.h1-right {
+  color: green;
+}
+
+.h1-wrong {
+  color: red;
+}
